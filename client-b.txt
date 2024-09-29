@@ -2,3 +2,24 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Step 1
+Input the grid of the warehouse using (x,y) coordinate format
+Set coordinate starting point as (x,y) coordinate
+Name coordinate "front entrance"
+Set coordinate destination as (x,y) coordinate 
+Name coordinate "You found it!"
+Step 2 
+Use a boolean to determine if the customer has reached the destination.  If not you found it coordinate then = FALSE
+Step 3
+Loop until customer reaches you found it coordinates
+Step 4
+Get customer input using arrow keys
+Print string "Use arrow keys to move.  Up arrow is north, right arrow is east, left arrow is west, down arrow is south"
+Set up arrow key stroke to equal one grid block movement forward
+Set right arrow key stroke to equal one grid block movement right
+Set left arrow key stroke to equal one grid block movement left
+Set down arrow key stroke to equal one grid block movement back
+Loop to check player input position
+Continue loop until the you found it destination is equal to player position on grid
+When the player reaches the you found it coordinates print string "Congratulations, you found it!"
+End game

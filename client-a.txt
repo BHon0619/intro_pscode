@@ -2,3 +2,19 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Initialize the start of the game by print string "The Magic Number Game"
+The application will set the magic_number to a random integer between 1 and 10
+Set the total number of attempts to 3
+Set attempts to 0
+Set player guess to 0
+Print string "Riddle me, Riddle me, Ree, guess the magic number, your attempts are only 3!"
+Set loop to 3 while attempts < total attempts
+Get the player attempt
+Print string "What is my magic number between 1 and 10?"
+Player inputs integer =>1 and <=10 
+If player input is not an integer =>1 and <=10 print string "please make sure the number is between 1-10"
+If integer is an integer =>1 and <=10, then check number
+If number is = to the magic_number print string "You are MAGIC!" Exit the loop
+If number is not equal to the magic_number print string "Guess again, friend!" Continue loop until 3 attempts
+After 3 incorrect attempts print string "Oh me, Oh me, your attempts have reached 3!  Try again later!"
+End game

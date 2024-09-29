@@ -1,4 +1,15 @@
 # Client Task C #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+Initialize application 
+Set variables 
+Set Max-package 50===50
+Set step+2
 
+Loop number 2 to 50 +2 for package count
+Print string "current package count"
+Use enter to calculate step +2
+current package count<Max-package continue loop
+current package count === Max-package stop loop
+Print string "You have packed 1 box!"
+End application
